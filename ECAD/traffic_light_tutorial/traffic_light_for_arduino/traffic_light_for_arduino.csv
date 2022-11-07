@@ -1,0 +1,30 @@
+"Source:","/home/mbz/Documents/rep-loti.05.032-21-22s-c18297-matevz-zorec/ECAD/traffic_light_tutorial/traffic_light_for_arduino/traffic_light_for_arduino.kicad_sch"
+"Date:","Sat 07 May 2022 14:19:29 EEST"
+"Tool:","Eeschema 6.0.5-a6ca702e91~116~ubuntu20.04.1"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","11"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"","","D1","3.4","Device:LED","LED_THT:LED_D3.0mm","~"
+"","","D2","3.4","Device:LED","LED_THT:LED_D3.0mm","~"
+"","","D3","3.4","Device:LED","LED_THT:LED_D3.0mm","~"
+"","","GND1","Conn_01x04","Connector_Generic:Conn_01x04","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal","~"
+"","","H1","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_2.5mm_Pad","~"
+"","","H2","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_2.5mm_Pad","~"
+"","","H3","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_2.5mm_Pad","~"
+"","","H4","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_2.5mm_Pad","~"
+"","","R1","150","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
+"","","R2","150","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
+"","","R3","150","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"1","3","D1, D2, D3","3.4","Device:LED","LED_THT:LED_D3.0mm","~"
+"2","1","GND1","Conn_01x04","Connector_Generic:Conn_01x04","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal","~"
+"3","4","H1, H2, H3, H4","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_2.5mm_Pad","~"
+"4","3","R1, R2, R3","150","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"

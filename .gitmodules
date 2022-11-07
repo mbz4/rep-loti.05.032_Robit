@@ -1,0 +1,3 @@
+[submodule "CODE/v6/wifi-mobile-robot"]
+	path = CODE/v6/wifi-mobile-robot
+	url = https://github.com/openhardwarerobots/wifi-mobile-robot.git

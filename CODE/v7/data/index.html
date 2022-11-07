@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Robit Mk2</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://cdn.rawgit.com/Mikhus/canvas-gauges/gh-pages/download/2.1.7/all/gauge.min.js"></script>
+    <link href="custom.css" rel="stylesheet" type="text/css">
+    <link href="entireframework.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="parent">          
+            <div class="content">
+                
+            <div class="wrapper">
+                <input type="radio" name="speed-settings" id="option-1" value="slow-speed" %SPEED_SLOW_STATUS%>
+                <input type="radio" name="speed-settings" id="option-2" value="normal-speed" %SPEED_NORMAL_STATUS%>
+                <input type="radio" name="speed-settings" id="option-3" value="fast-speed" %SPEED_FAST_STATUS%>
+                
+                <label for="option-1" class="option option-1">
+                    <div class="dot"></div>
+                    <span>Slow</span>
+                </label>
+                <label for="option-2" class="option option-2">
+                    <div class="dot"></div>
+                    <span>Normal</span>
+                </label>
+                <label for="option-3" class="option option-3">
+                    <div class="dot"></div>
+                    <span>Fast</span>
+                </label>
+            </div>
+            <div class="set blue">
+                <nav class="d-pad">
+                    <a class="up control" data-direction="up"></a>
+                    <a class="right control" data-direction="right"></a>
+                    <a class="down control" data-direction="down"></a>
+                    <a class="left control" data-direction="left"></a>
+                </nav>
+            </div>
+        </div>
+        </div>
+        <div class="card-grid">
+            <div class="card">
+                <canvas id="gauge-distance"></canvas>
+            </div>
+            <div class="card">
+                <canvas id="gauge-temperature"></canvas>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    <script src="custom.js"></script>
+</body>
+</html>
